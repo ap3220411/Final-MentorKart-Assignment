@@ -1,0 +1,48 @@
+
+.container{
+    display:  flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    margin-top: 200px;
+    background-color: aquamarine;
+    width: 800px;
+    border-radius: 10px;
+}
+.icon{
+    border: 2px solid black;
+   width: 55px;
+   height: 25px;
+   border-radius: 10px;
+   background-color: blue;
+   cursor: pointer;
+   color: white;
+   
+}
+.quote{
+
+    padding: 50px 100px;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+}
+.line{
+    width: 90vh;
+    height: 2px;
+    background: black;
+}
+.lower{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin:  20px 0px;
+    
+
+}
+.author {
+    color: black;
+    font-size: 12px;
+    
+}
+/* @media(max-width:px) */
